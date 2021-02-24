@@ -1,0 +1,749 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1140px ;
+    margin: 0 auto;
+}
+/*==========================Navbar part css goes here ======================*/
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.menu-main{
+    display: flex;
+}
+.logo{
+    width: 200px;
+    padding-top: 41px;
+}
+.logo img{
+    
+}
+.menu{
+    width: 940px;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.menu ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:#ffffff;
+    line-height: 120px;
+    text-transform: uppercase;
+    transition: all linear .5s;
+}
+.menu ul li a:hover{
+    color: #753d9d;
+}
+/*==========================Navbar part css end here ======================*/
+/*==========================banner part css goes here ======================*/
+.banner-image{
+    position: relative;
+}
+.banner-overlay{
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0,.33), rgba(0, 0, 0,.33));
+    background-color: rgba(25, 11, 35,.60);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.banner-text h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 178px;
+}
+.banner-text span{
+    color: #a066c9;
+}
+.banner-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#ffffff;
+    text-align: center;
+    padding: 0 95px;
+    padding-top: 20px;
+}
+.banner-btn{
+    padding-top: 78px;
+    text-align: center;
+}
+.banner-btn a{
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    padding: 23px 68px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-right: 25px;
+
+}
+.banner-btn a:hover{
+    background-color: #753d9d;
+    border-radius: 3px;
+    border: none;
+    padding: 25px 68px;
+}
+/*==========================banner part css end here ======================*/
+/*==========================creative part css goes here ======================*/
+.creative-main{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 66px;
+}
+.creative-text{
+    width: 645px;
+    padding-top: 82px;
+    
+}
+.creative-head{
+    padding-left: 14px;
+}
+.creative-head h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color:#0d113d;
+    text-transform: uppercase;
+    position: relative;
+}
+.creative-head h3::after{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 85px;
+    background-color: #753d9d;
+    left: -2%;
+    border-radius: 5px;
+}
+.creative-head span{
+    color: #753d9d;
+}
+.creative-head h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    color:#0d113d;
+    text-transform: uppercase;
+}
+.creative-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:#0d113d;
+    line-height: 26px;
+    padding-top: 33px;
+}
+.creative-btn{
+    padding-top: 79px;
+}
+.creative-btn a{
+    border: 2px solid #0d113d;
+    border-radius: 6px;
+    padding: 18px 56px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color:#0d113d;
+    text-transform: uppercase;
+}
+.creative-img{
+    width: 457px;
+    padding-top: 72px;
+}
+.creative-image{
+    position: relative;
+
+}
+.creative-overlay{
+    position: absolute;
+    background-color: rgba(25, 11, 35,.60);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    border-radius: 5px;
+}
+.border{
+    width: 100%;
+    height: 3px;
+    background-color: #e0e0e0;
+}
+
+/*==========================creative part css end here ======================*/
+/*==========================item part css goes here ======================*/
+.item-main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 69px;
+    padding-bottom: 69px;
+}
+.item{
+    width: 366px;
+}
+.item-icon{
+    display: flex;
+}
+.item-icon i{
+    font-size: 68px;
+    color: #9468b3;
+}
+.item-icon h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    color:#0d113d;
+    text-transform: uppercase;
+    align-self: center;
+    padding-left: 22px;
+}
+.item-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:#0d113d;
+    line-height: 26px;
+    padding-top: 21px; 
+}
+/*==========================item part css end here ======================*/
+/*==========================intro part css goes here ======================*/
+.intro-text{text-align: center;}
+.intro-text h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color:#ffffff;
+    padding-top: 92px;
+    
+}
+.intro-text a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#ffffff;
+    padding: 19px 70px;
+    background-color: #753d9d;
+    border-radius: 5px;
+}
+.intro-btn{
+    padding-top: 51px; /*psd have some height problem "91px in psd" but i use 51px" */
+}
+
+/*==========================intro part css end here ======================*/
+/*==========================service part css goes here ======================*/
+.service-head{
+    padding-top: 61px;
+}
+.service-head h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color:#0d113d;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 18px;
+}
+.service-head h3::after{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 37px;
+    background-color: #753d9d;
+    left: -1.4%;
+    border-radius: 5px;
+}
+.service-item{
+    padding-top: 31px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-img{
+    width: 268px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.service-img2{
+    width: 653px;
+    padding-bottom: 69px;
+}
+.service-image{
+    position: relative;
+}
+.service-overlay{
+    position: absolute;
+    background-color: rgba(25, 11, 35,.60);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    border-radius: 5px;
+}
+.service-border{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    background-color: #753d9d;
+    bottom: 0;
+    left: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+}
+.service-border a{
+    padding-left: 25px;
+    padding-top: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+.service-img3{
+    width: 457px;
+    position: relative;
+    padding-bottom: 69px;
+}
+.img3 a{
+    position: absolute;
+    right: 45px;
+    bottom: 69px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+.img3 span{
+    position: absolute;
+    border-bottom: 4px solid #ffffff;
+    width: 92px;
+    border-radius: 4px;
+    right: 114px;
+    bottom: 54px;
+}
+/*==========================service part css end here ======================*/
+/*==========================support part css goes here ======================*/
+.support-main{
+    display: flex;
+    justify-content: space-between;
+}
+.support-img{
+    width: 555px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: -4px;
+}
+.support-text{
+width: 555px;
+padding-top: 69px;
+}
+.support-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 33px;
+    color:#0d113d;
+}
+.support-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:#0d113d;
+    line-height: 26px;
+    padding-top: 10px;
+}
+.support-text1{
+    padding-top: 22px;
+}
+.support-text1-item{
+    display: flex;
+}
+.support-text1-item span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #a5a5a5; 
+    margin-top: 18px;
+}
+.support-text1-item p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color:#616161;
+    padding-left: 6px;
+}
+.support-bottom-color{
+    width: 100%;
+    background-color: #753d9d;
+    height: 139px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 63px;
+}
+.bottom p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color:#ffffff;
+    display: flex;
+    width: 570px;
+}
+.bottom-btn{
+    text-align: right;
+    width: 300px;
+}
+.bottom-btn a{
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    padding: 18px 67px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+/*==========================support part css end here ======================*/
+/*==========================portfolio part css goes here ======================*/
+.portfolio-head{
+    padding-top: 61px;
+    display: flex;
+    position: relative;
+}
+.portfolio-head h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color:#0d113d;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 16px;
+}
+.portfolio-head h3::after{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 37px;
+    background-color: #753d9d;
+    left: -10%;
+    border-radius: 5px;
+}
+.portfolio-icon{
+    position: absolute;
+    text-align: right;
+    right: 0;
+    top: 63%;
+}
+.portfolio-icon i{
+    font-size: 29px;
+    color: #753d9d;
+    transition: all linear .5s;
+}
+.portfolio-icon i:hover{
+    color: #e9e9e9;
+}
+.right{
+    margin-left: 11px;
+}
+
+.portfolio-img{
+    padding-top: 49px;
+    padding-bottom: 73px;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-image{
+    position: relative;
+    width: 360px;
+}
+.portfolio-overlay{
+    position: absolute;
+    background-color: rgba(25, 11, 35,.60);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    border-radius: 5px;
+}
+/*==========================portfolio part css end here ======================*/
+/*==========================blog part css goes here ======================*/
+.blog-head{
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.blog-head h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color:#0d113d;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 0px;
+    padding-left: 16px;
+}
+.blog-head h3::after{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 37px;
+    background-color: #753d9d;
+    left: 0;
+    border-radius: 5px;
+}
+.blog-text{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-text-left{
+    width: 765px;
+}
+.blog-text-left p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color:#753d9d;
+}
+.blog-text-mid{
+    width: 137px;
+}
+.blog-text-mid p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#a2a2a2;
+}
+.blog-text-right{
+    width: 165px;
+}
+.blog-text-right p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:#0d113d;
+}
+.blog-text-right span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:#a2a2a2;
+}
+.blog-text{
+    border-bottom: 2px solid #f2f2f2;
+    width: 1140px;
+    padding-top: 41px;
+    padding-bottom: 35px;
+}
+#blog{
+    padding-bottom: 85px;
+}
+/*==========================blog part css end here ======================*/
+/*==========================footer part css goes here ======================*/
+#footer{
+    background-color: #0d113d;
+    padding-bottom: 36px;
+}
+.footer-head{
+    width: 1140px;
+    height: 122px;
+    background-color: #753d9d;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.footer-head-item{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 33px;
+}
+.footer-head-text{
+    width: 306px;
+}
+.footer-head-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    color:#ffffff;
+}
+.footer-head-text h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color:#ffffff;
+    padding-top: 4px;
+}
+.footer-head-item input{
+    width: 493px;
+    padding: 15px;
+    border: 2px solid #d3b1eb;
+    border-radius: 10px;
+    outline: none;
+    background-color: #753d9d;
+    
+}
+.footer-head-item ::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #e0c2f6;
+}
+.footer-head-item a{
+    width: 210px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#ffffff;
+    padding-top: 15px;
+    padding-bottom: 12px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 73px;
+    padding-bottom: 73px;
+}
+.footer-left{
+    width: 546px;
+}
+.footer-left p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color:#ffffff;
+    padding-top: 31px;
+}
+.footer-right1{
+    width: 555px;
+    display: flex;justify-content: space-around;
+}
+.footer-mid {
+    width: 98px;
+}
+.footer-mid a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color:#ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all linear .5s;
+}
+.footer-mid  a:hover{
+    color: #753d9d;
+}
+.footer-mid1{
+    width: 145px;
+    position: relative;
+}
+.footer-mid1 a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color:#ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all linear .5s;
+}
+.footer-mid1 a:hover{
+    color: #753d9d;
+}
+.footer-mid1::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 147px;
+    background-color: #1e224d;
+    bottom: 0;
+    left: -32px; 
+}
+.footer-right{
+    width: 137px;
+    position: relative;
+}
+.footer-right a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color:#ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all linear .5s;
+}
+.footer-right a:hover{
+    color: #753d9d;
+}
+.footer-right::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 147px;
+    background-color: #1e224d;
+    bottom: 0;
+    left: -32px; 
+}
+.copyright{
+    width: 100%;
+    border-top: 1px solid #1e224d;
+    display: flex;justify-content: space-between;
+}
+.copyright-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color:#b3b5d1;
+    padding-top: 32px;
+}
+.copyright-icon{
+    text-align: right;
+    padding-top: 31px;
+}
+.copyright-icon i{
+    font-size: 15px;
+    color: #ffffff;
+    margin-left: 23px;
+}
+/*==========================footer part css end here ======================*/
+/*==========================Navbar part css goes here ======================*/
+
+/*==========================Navbar part css end here ======================*/
+/*==========================Navbar part css goes here ======================*/
+
+/*==========================Navbar part css end here ======================*/
+/*==========================Navbar part css goes here ======================*/
+
+/*==========================Navbar part css end here ======================*/
